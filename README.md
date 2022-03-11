@@ -7,3 +7,9 @@ Contact me on git hub or email me at richinatl@gmail.com
 github repository: https://github.com/richinatl/Portfolio-Richard-Murphy
 
 deployed portfolio: https://richinatl.github.io/Portfolio-Richard-Murphy/
+
+![Screenshot 2022-03-10 220913](https://user-images.githubusercontent.com/95508564/157795325-9e066328-74c1-47f3-80ec-e508ee3a7401.png)
+
+![Screenshot 2022-03-10 221204](https://user-images.githubusercontent.com/95508564/157795343-29500baa-0fe4-4193-9836-b598a843c113.png)
+
+
