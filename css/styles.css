@@ -98,6 +98,11 @@ a:hover {
   display: inline-block;
   margin-right: 2rem;
 }
+
+.list__item {
+  color: #333;
+  font-weight: 700;
+}
 .list__link {
   padding-top: 2rem;
 }
@@ -277,6 +282,7 @@ a:hover {
 }
 .footer__item {
   color: #fff;
+  font-size: 2rem;
   transition: color 0.2s;
 }
 .footer__item > a {
@@ -289,9 +295,9 @@ a:hover {
 .footer__item > a:hover {
   opacity: 0.9;
 }
-.heading--footer {
+.footer--heading {
   color: #fff;
-  font-size: 2.4rem;
+  font-size: 4rem;
   margin-left: 4rem;
 }
 @media screen and (min-width: 768px) {
