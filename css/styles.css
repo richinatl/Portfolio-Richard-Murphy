@@ -107,6 +107,12 @@ a:hover {
   padding-top: 2rem;
 }
 
+.list__item .li__description {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
 /* Blocks */
 .block {
   --padding-vertical: 5rem;
@@ -141,10 +147,6 @@ a:hover {
   padding-right: 5rem;
   padding-bottom: 4rem;
   clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
-}
-.block-skils .card {
-  max-width: 500px;
-  margin: 0 auto;
 }
 
 /* Navigation Bar */
@@ -206,24 +208,28 @@ a:hover {
 
 /* Skills Block */
 .block--skills .grid {
-  gap: 4rem 2rem;
+  padding-bottom: 2rem;
 }
 .skill__name {
   padding-bottom: 2rem;
 }
 
-.block--skills .card {
-  max-width: 500px;
-  margin: auto;
-}
+
 /* Cards */
 .card {
   border-radius: 15px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   margin-bottom: 2rem;
+  margin-top: 2rem;
   overflow: hidden;
   padding: 5rem;
-  transition: transform 0.2s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+@media screen and (min-width:1024px) {
+  .card {
+    max-height: 70vh;
+  }
 }
 
 .card__header,
