@@ -107,10 +107,22 @@ a:hover {
   padding-top: 2rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .list__link {
+    font-size: 1.6rem;
+  }
+}
+
 .list__item .li__description {
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .list__item .li__description {
+    font-size: 1.4rem;
+  }
 }
 
 /* Blocks */
@@ -234,7 +246,8 @@ a:hover {
 
 .card__header,
 .card__body {
-  padding: 2rem 7%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .card:hover {
   transform: scale(1.02);
