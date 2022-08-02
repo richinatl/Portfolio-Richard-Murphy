@@ -26,7 +26,7 @@ html {
 img {
   width: 100%;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 body {
@@ -140,6 +140,10 @@ a:hover {
   margin-top: 1.5rem;
   margin-right: 1rem;
   margin-left: 2rem;
+}
+
+.banner__image {
+  border-radius: 50%;
 }
 
 .block--dark {
